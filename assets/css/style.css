@@ -1,3 +1,329 @@
-body {
-    margin: 0;
-}
+    body {
+        margin: 0;
+    }
+    
+    .container {
+        margin: 0 auto;
+        width: 80%;
+    }
+    /* font-family: 'Roboto', sans-serif; 
+font-family: 'Philosopher', sans-serif;*/
+    
+    header {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header nav {
+        display: flex;
+        align-items: center;
+        color: #150C01;
+        margin-top: 30px;
+    }
+    
+    header nav ul {
+        display: flex;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    header nav ul li {
+        margin-left: 40px;
+        opacity: 0.6;
+    }
+    
+    header nav ul li:hover {
+        color: #DC780B;
+        opacity: 1;
+    }
+    
+    header button {
+        background: #DC780B;
+        border: none;
+        border-radius: 5px;
+        color: #FFFFFF;
+        padding: 13px 30px 14px;
+        margin-top: 30px;
+    }
+    
+    .about-us {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .image img {
+        position: relative;
+    }
+    
+    #ellipse {
+        position: absolute;
+        background: #DC780B;
+        width: 333px;
+        height: 53px;
+        opacity: 0.0999;
+        filter: blur(20px);
+        transform: rotate(6.27deg);
+        margin: -70px 100px;
+    }
+    
+    .about-us-info h1 {
+        font-family: 'Philosopher', sans-serif;
+        font-size: 48.83px;
+        line-height: 58px;
+        color: #150C01;
+    }
+    
+    .about-us-info p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150C01;
+        margin: 50px 0;
+    }
+    
+    .about-us-btn {
+        display: flex;
+    }
+    
+    .about-us-btn button {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        background: #DC780B;
+        border: 1.5px solid #DC780B;
+        border-radius: 5px;
+        color: #fff;
+        padding: 20px 40px;
+        margin-right: 20px;
+    }
+    
+    .about-us-btn button:hover {
+        border: 1.5px solid rgba(220, 120, 11, .1);
+        color: #DC780B;
+        background: #fff;
+    }
+    
+    .features {
+        margin-top: 70px;
+    }
+    
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #DC780B;
+        opacity: 0.7;
+    }
+    
+    h2 {
+        font-family: 'Philosopher', sans-serif;
+        font-size: 31.25px;
+        line-height: 35px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #150C01;
+    }
+    
+    .features-cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .features-cards p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #150C01;
+        opacity: 0.7;
+        margin: 0;
+    }
+    
+    .features-cards-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 25vw;
+    }
+    
+    .card-backgraund {
+        width: 88px;
+        height: 88px;
+        -moz-border-radius: 60px;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        position: relative;
+    }
+    
+    #home {
+        background: #8FA632;
+        opacity: 0.1;
+    }
+    
+    #delivery {
+        background: #E64D2E;
+        opacity: 0.08;
+    }
+    
+    #smail {
+        background: #DC780B;
+        opacity: 0.1;
+    }
+    
+    .features-cards-home img {
+        margin-top: 18px;
+        position: absolute;
+    }
+    
+    .menu {
+        margin-top: 160px;
+    }
+    
+    .menu p {
+        font-family: 'Roboto', sans-serif;
+        width: 50vw;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #150C01;
+        opacity: 0.7;
+        margin: 0 auto;
+    }
+    
+    .menu-list {
+        display: flex;
+        margin-top: 60px;
+        flex-wrap: wrap;
+    }
+    
+    h3 {
+        font-family: 'Philosopher', sans-serif;
+        font-size: 25px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #150C01;
+    }
+    
+    .menu-info p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: #150C01;
+        opacity: 0.7;
+        text-align: start;
+        width: auto;
+    }
+    
+    .menu-text {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu-img img {
+        border-radius: 80px 10px 80px 0;
+        -webkit-border-radius: 80px 10px 80px 0;
+        -moz-border-radius: 80px 10px 80px 0;
+        -ms-border-radius: 80px 10px 80px 0;
+        -o-border-radius: 80px 10px 80px 0;
+    }
+    
+    .menu-card {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        border-radius: 75px 10px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: content;
+        width: 362px;
+        margin: 15px;
+    }
+    
+    .menu-btn {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0 25px 0;
+    }
+    
+    .menu-info {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .menu-btn button {
+        background: #DC780B;
+        border: none;
+        border-radius: 5px;
+        padding: 11px 12px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    
+    .stars {
+        display: flex;
+        align-items: center;
+    }
+    
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu .btn button {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        background: #DC780B;
+        border: 1.5px solid #DC780B;
+        border-radius: 5px;
+        color: #fff;
+        padding: 11px 30px 12px;
+        margin: 35px 0 103px 0;
+    }
+    
+    .menu .btn button:hover {
+        border: 1.5px solid rgba(220, 120, 11, .1);
+        color: #DC780B;
+        background: #fff;
+    }
+    
+    footer {
+        background: #252525;
+    }
+    
+    .footer-box {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        line-height: 20px;
+        font-family: 'Philosopher', sans-serif;
+        color: #FFFFFF;
+        padding: 137px 150px 104px;
+    }
+    
+    .footer-box ul {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        padding-left: 0;
+        list-style-type: none;
+    }
+    
+    .footer-box ul li {
+        margin: 10px 0;
+    }
+    
+    .social {
+        opacity: none;
+    }
