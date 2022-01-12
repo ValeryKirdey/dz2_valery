@@ -56,21 +56,6 @@ font-family: 'Philosopher', sans-serif;*/
         align-items: center;
     }
     
-    .image img {
-        position: relative;
-    }
-    
-    #ellipse {
-        position: absolute;
-        background: #DC780B;
-        width: 333px;
-        height: 53px;
-        opacity: 0.0999;
-        filter: blur(20px);
-        transform: rotate(6.27deg);
-        margin: -70px 100px;
-    }
-    
     .about-us-info h1 {
         font-family: 'Philosopher', sans-serif;
         font-size: 48.83px;
@@ -324,4 +309,24 @@ font-family: 'Philosopher', sans-serif;*/
     
     .social {
         opacity: none;
+    }
+    
+    @media (max-width: 900px) {
+        .container {
+            margin: 0 auto;
+            width: 90%;
+        }
+        .about-us-info {
+            width: 50%;
+            margin-top: -40px;
+        }
+        .about-us-info h1 {
+            font-size: 35px;
+        }
+        .about-us-info p {
+            margin: 25px 0;
+        }
+        .about-us-btn button {
+            padding: 10px 60px;
+        }
     }
